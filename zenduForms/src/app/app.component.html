@@ -1,0 +1,17 @@
+<app-toolbar></app-toolbar>
+
+<h2 class="submissions-heading">Submissions</h2>
+
+<app-datafilter></app-datafilter>
+
+<div class="container">
+    <div class="left-column">
+         
+        <app-card *ngFor="let card of cards" [data]="card"></app-card>
+    </div>
+
+    <div class="right-column">
+        <app-map></app-map>
+    </div>
+</div>
+

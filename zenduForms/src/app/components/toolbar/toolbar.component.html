@@ -1,0 +1,41 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+        <button mat-icon-button>
+        </button>
+        <h1>ZenduForms</h1>
+        <span class="menu-spacer"></span>
+        <div>
+            <a mat-button [routerLink]="'/forms'"> <mat-icon> format_list_bulleted</mat-icon> Forms </a>
+            <span class="item-spacer"></span>
+
+            <a mat-button [routerLink]="'/customer'"><mat-icon>people</mat-icon> Costomers </a>
+            <span class="item-spacer"></span>
+
+            <a mat-button [routerLink]="'/submission'"> <mat-icon>graphic_eq</mat-icon> Submission </a>
+            <span class="item-spacer"></span>
+
+            <a mat-button [routerLink]="'/history'"><mat-icon>history</mat-icon> History </a>
+            <span class="item-spacer"></span>
+
+            <a mat-button [routerLink]="'/reports'"> <mat-icon> insert_chart_outlined</mat-icon> Reports </a>
+            <span class="item-spacer"></span>
+
+            <a mat-button [routerLink]="'/workflow'"> <mat-icon> insert_chart_outlined</mat-icon> Workflow </a>
+            <span class="item-spacer"></span>
+
+
+
+        </div>
+
+
+        <span class="example-spacer"></span>
+        <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+            <mat-icon>notifications</mat-icon>
+        </button>
+        <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+            <mat-icon>logout</mat-icon>
+        </button>
+    </mat-toolbar-row>
+
+
+</mat-toolbar>
